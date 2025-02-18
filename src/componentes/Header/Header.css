@@ -1,0 +1,27 @@
+.navbar {
+  background-color: rgba(66, 66, 66, 0.7); /* Fondo blanco con opacidad 0.7 */
+  backdrop-filter: blur(10px); /* Efecto de desenfoque */
+  align-items: center;
+}
+
+.container{
+    width: 100%;
+}
+
+.navbar-brand {
+  font-weight: bold;
+}
+
+.navbar-nav .nav-link {
+  margin-left: 1rem; /* Espacio entre los botones */
+  font-weight: 600;
+}
+
+/* Estilos para el dropdown */
+.dropdown-menu {
+  background-color: rgba(255, 255, 255, 0.9);
+}
+
+.dropdown-item {
+  color: #333;
+}
