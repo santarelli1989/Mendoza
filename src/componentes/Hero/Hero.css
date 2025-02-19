@@ -33,7 +33,9 @@
 .hero-content > p{
   font-size: 40px;
 }
-
+.img{
+  width: 100%;
+}
 .hero:hover .hero-content {
   transform: translateY(0); /* Se muestra al hacer hover */
 }

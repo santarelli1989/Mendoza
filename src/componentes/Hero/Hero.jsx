@@ -6,7 +6,7 @@ const Hero = () => {
   return (
     <div className="hero">
       <div className="hero-image">
-        <img src={imagen} alt="Mendoza" /> 
+        <img  src={imagen} alt="cerro aconcaga" /> 
       </div>
       <div className="hero-content">
         <h1 className="hero-title">MENDOZA</h1>

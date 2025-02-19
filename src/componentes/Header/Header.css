@@ -4,8 +4,8 @@
   align-items: center;
 }
 
-.container{
-    width: 100%;
+.container {
+  width: 100%;
 }
 
 .navbar-brand {
@@ -15,6 +15,10 @@
 .navbar-nav .nav-link {
   margin-left: 1rem; /* Espacio entre los botones */
   font-weight: 600;
+  color: white;
+}
+.nav-link:hover {
+  color: rgb(0, 0, 0);
 }
 
 /* Estilos para el dropdown */
