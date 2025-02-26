@@ -25,7 +25,7 @@ Hoy en día, Mendoza es una ciudad vibrante y cosmopolita que combina su rica hi
               class="carousel slide"
               data-bs-ride="carousel"
             >
-              <div class="carousel-inner my-3">
+              <div class="carousel-inner border-circle my-3">
                 {imgs.map((img, idx) => (
                   <div
                     key={idx}
