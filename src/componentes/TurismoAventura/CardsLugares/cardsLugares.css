@@ -1,0 +1,27 @@
+.card {
+    position: relative;
+    overflow: hidden; /* Evita que el contenido oculto se vea fuera */
+}
+
+.card-content { 
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    padding: 20px;
+    background-color: rgba(0, 0, 0, 0.7); /* Fondo oscuro más visible */
+    transform: translateY(100%);
+    opacity: 0; /* Oculto por defecto */
+    transition: transform 0.4s ease-out, opacity 0.4s ease-out;
+}
+
+.card-content > p {
+    font-size: 14px; /* Tamaño de fuente más legible */
+    color: white; /* Mejor contraste */
+    margin: 0; /* Evita márgenes innecesarios */
+}
+
+.card:hover .card-content {
+    transform: translateY(0);
+    opacity: 1; /* Aparece gradualmente */
+}
