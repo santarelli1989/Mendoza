@@ -10,6 +10,7 @@ const CardsLugaresContainer = () => {
         {infoLugaresF1.map((infoLugarF1, id) => (
           <CardsLugares
             key={id}
+            image={infoLugarF1.image}
             title={infoLugarF1.title}
             description={infoLugarF1.description}
             href={infoLugarF1.href}
@@ -21,6 +22,7 @@ const CardsLugaresContainer = () => {
           <CardsLugares
             key={id}
             title={infoLugar2.title}
+            image={infoLugar2.image}
             description={infoLugar2.description}
             href={infoLugar2.href}
           />
