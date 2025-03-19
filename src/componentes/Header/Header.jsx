@@ -4,8 +4,8 @@ import { Link } from 'react-router-dom';
 
 const Header = () => {
   return (
-    <nav className="navbar navbar-expand-lg navbar-light">
-      <div className='container '>
+    <nav className="navbar navbar-expand-lg navbar-light fixed-top">
+      <div className='container'>
         <Link className="navbar-brand " to={'/'}>Tu Logo</Link> {/* Reemplaza con tu logo */}
         <button className="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
           <span className="navbar-toggler-icon"></span>

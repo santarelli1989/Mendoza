@@ -1,7 +1,6 @@
 import React from 'react';
 
 const CardStaffAventura = (props) => {
-  
   return (
     <>
       <div className="col">
